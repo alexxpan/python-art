@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>NodeBox Reference - 'findpath'</title>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta name="AppleTitle" content="findpath">
+<meta name="description" content="Constructs a fluid path from a list of coordinates">
+<link href="style.css" type="text/css" rel="stylesheet">
+<meta name="robots" content="nofollow">
+<base target="_top">
+</head>
+
+<body>
+
+<div id="content-fixed">
+<div class="name">findpath</div>
+<div class="syntax">findpath(list, curvature=1.0)</div>
+<div class="description">Constructs a fluid path from a list of coordinates. Each element in the list is a 2-tuple defining the x-coordinate and the y-coordinate. If the curve has more than three points, the curvature parameter offers some control on how separate segments are stitched together: from straight lines (0.0) to smooth curves (1.0).</div>
+
+<div class="examples">
+<table><tr>
+        <td><div class="image"><img src="images/items/findpath.gif" alt="findpath example image"></div></td>
+        <td><pre>points = [
+    (100, 100),
+    (200, 200),
+    (350, 200)]
+ 
+for x, y in points:
+    oval(x-2, y-2, 4, 4)
+ 
+autoclosepath(False)    
+path = findpath(points)
+drawpath(path)</pre></td>
+</tr></table>
+</div>
+
+<div class="returns"><p>the constructed path</p></div>
+
+
+
+
+<br>
+<br>
+</div>
+</body>
+</html>
+

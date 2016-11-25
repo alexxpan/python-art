@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>NodeBox Reference - 'random'</title>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta name="AppleTitle" content="random">
+<meta name="description" content="Returns a random number that can be assigned to a variable or a parameter">
+<link href="style.css" type="text/css" rel="stylesheet">
+<meta name="robots" content="nofollow">
+<base target="_top">
+</head>
+
+<body>
+
+<div id="content-fixed">
+<div class="name">random</div>
+<div class="syntax">random(v1=None, v2=None)</div>
+<div class="description">Returns a random number that can be assigned to a variable or a parameter. When no parameters are supplied, returns a floating-point (decimal) number between 0.0 and 1.0. When one parameter is supplied, returns a number between 0 and this parameter. When two parameters are supplied, returns a number between the first and the second parameter. The random() command is useful for all sorts of operations, from random colors to lines with a random width.</div>
+
+<div class="examples">
+<table><tr>
+        <td><pre>r = random() # returns a float between 0 and 1
+r = random(2.5) # returns a float between 0 and 2.5 
+r = random(-1.0, 1.0) # returns a float between -1.0 and 1.0
+r = random(5) # returns an int between 0 and 5
+r = random(1, 10) # returns an int between 1 and 10
+
+fill(random(), 0, 0) # sets the fill to anything from black (0.0,0,0) to red (1.0,0,0)</pre></td>
+</tr></table>
+</div>
+
+<div class="returns"><p>a random number (either an integer or floating-point) within the given boundaries</p></div>
+
+<div class="related">
+    <a href="choice.html" target="frmbot">choice</a> 
+</div>
+
+
+
+<br>
+<br>
+</div>
+</body>
+</html>
+

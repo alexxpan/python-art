@@ -1,0 +1,38 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                buildInterface = id; 
+                checkSyntax = id; 
+                comment = id; 
+                copyImageAsPDF = id; 
+                dedent = id; 
+                exportAsImage = id; 
+                exportAsMovie = id; 
+                indent = id; 
+                jumpToLine = id; 
+                resetZoom = id; 
+                runFullscreen = id; 
+                runScript = id; 
+                save = id; 
+                stopScript = id; 
+                toggleVerticalPanes = id; 
+                uncomment = id; 
+                zoomIn = id; 
+                zoomOut = id; 
+                zoomToFit = id; 
+                zoomToTag = id; 
+            }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {generateCode = id; showPreferencesPanel = id; showSite = id; }; 
+            CLASS = NodeBoxAppDelegate; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

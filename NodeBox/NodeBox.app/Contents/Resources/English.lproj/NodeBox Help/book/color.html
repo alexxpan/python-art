@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>NodeBox Reference - 'color'</title>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta name="AppleTitle" content="color">
+<meta name="description" content="Returns a color">
+<link href="style.css" type="text/css" rel="stylesheet">
+<meta name="robots" content="nofollow">
+<base target="_top">
+</head>
+
+<body>
+
+<div id="content-fixed">
+<div class="name">color</div>
+<div class="syntax">color(r, g, b, a=1.0)
+color(h, s, b, a=1.0)
+color(c, m, y, k, a=1.0)
+color(k, a=1.0)</div>
+<div class="description">Returns a color. The color is either specified in terms of RGB, HSB, or CMYK depending on the current colormode(). The default colormode is RGB. Each RGB, HSB, or CMYK parameter ranges between 0.0 and 1.0. The last parameter is optional and sets the alpha (opacity) value. Additionally, color() can be called with just one parameter that sets the gray value. The returned color can be supplied as parameter to the fill() or stroke() command.</div>
+
+<div class="examples">
+<table><tr>
+        <td><div class="image"><img src="images/items/color.gif" alt="color example image"></div></td>
+        <td><pre>c1 = color(0.2, 0.3, 0.5)
+fill(c1)
+rect(10, 10, 20, 20)
+
+c2 = color(0.3)
+fill(c2)
+oval(40, 40, 10, 10)</pre></td>
+</tr></table>
+</div>
+
+<div class="returns"><p>the constructed color</p></div>
+
+<div class="related">
+    <a href="colormode.html" target="frmbot">colormode</a> 
+    <a href="fill.html" target="frmbot">fill</a> 
+    <a href="stroke.html" target="frmbot">stroke</a> 
+</div>
+
+
+
+<br>
+<br>
+</div>
+</body>
+</html>
+

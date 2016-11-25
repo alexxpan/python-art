@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>NodeBox Reference - 'reset'</title>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta name="AppleTitle" content="reset">
+<meta name="description" content="Resets all transformations to their default values">
+<link href="style.css" type="text/css" rel="stylesheet">
+<meta name="robots" content="nofollow">
+<base target="_top">
+</head>
+
+<body>
+
+<div id="content-fixed">
+<div class="name">reset</div>
+<div class="syntax">reset()</div>
+<div class="description">Resets all transformations to their default values. NodeBox is a so-called state-machine. For example, once rotate(90) is called, all subsequent shapes, paths, text and images are rotated 90 degrees. The rotation state is 90 degrees. If rotate() is called again, for example rotate(30), the rotation state becomes 120 degrees (90+30). Once reset() is called, the rotation state becomes 0 degrees (the default rotation) again.</div>
+
+<div class="examples">
+<table><tr>
+        <td><pre>rotate(45)
+text(&quot;45 degrees&quot;, 50, 80)
+push()
+rotate(-30)
+text(&quot;15&quot;, 50, 50)
+pop()
+text(&quot;45 degrees...&quot;, 50, 60)</pre></td>
+</tr></table>
+</div>
+
+<div class="returns"><p>None</p></div>
+
+<div class="related">
+    <a href="push.html" target="frmbot">push</a> 
+    <a href="pop.html" target="frmbot">pop</a> 
+</div>
+
+
+
+<br>
+<br>
+</div>
+</body>
+</html>
+

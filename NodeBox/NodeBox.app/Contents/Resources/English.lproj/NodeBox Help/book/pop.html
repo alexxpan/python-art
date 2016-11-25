@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>NodeBox Reference - 'pop'</title>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta name="AppleTitle" content="pop">
+<meta name="description" content="NodeBox is a so-called state-machine">
+<link href="style.css" type="text/css" rel="stylesheet">
+<meta name="robots" content="nofollow">
+<base target="_top">
+</head>
+
+<body>
+
+<div id="content-fixed">
+<div class="name">pop</div>
+<div class="syntax">pop()</div>
+<div class="description">NodeBox is a so-called state-machine. For example, once rotate(45) is called, all subsequent shapes, paths, text and images are rotated 45 degrees. The rotation state is 45 degrees. The push() and pop() commands allow for a state within a state. All transformations, such as rotate() and skew(), defined between a push() and pop() call last only until pop() is called. Thereafter the previous state is used. For example, a rotate(-30) within a rotate(45) means a rotation state of 15 degrees until pop() is called and the rotation state becomes 45 degrees again. </div>
+
+<div class="examples">
+<table><tr>
+        <td><div class="image"><img src="images/items/pop.gif" alt="pop example image"></div></td>
+        <td><pre>rotate(45)
+text(&quot;45 degrees&quot;, 50, 80)
+push()
+rotate(-30)
+text(&quot;15&quot;, 50, 50)
+pop()
+text(&quot;45 degrees...&quot;, 50, 60)</pre></td>
+</tr></table>
+</div>
+
+<div class="returns"><p>None</p></div>
+
+<div class="related">
+    <a href="pop.html" target="frmbot">pop</a> 
+    <a href="reset.html" target="frmbot">reset</a> 
+</div>
+
+
+
+<br>
+<br>
+</div>
+</body>
+</html>
+

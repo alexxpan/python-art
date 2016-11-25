@@ -1,0 +1,157 @@
+body {
+	color: rgb(60,60,60);
+	margin: O;
+	padding: 0;
+}
+
+p, pre.p {
+	font-family: serif;
+	font-size: 10pt;
+	line-height: 1.2em;
+	margin: 0 0 0.5em 0;
+	padding: 0;
+}
+
+h1 {
+	color: rgb(60,60,60);
+	font-family: serif;
+	font-size: medium;
+	margin: 0 0 0.5em 0;
+	padding: 0;
+}
+
+a {
+	color: rgb(60,60,60);
+	font-family: serif;
+	font-size: 10pt;
+}
+
+a img {
+	border: 0;
+}
+
+p a {
+	font-size: 1em;
+}
+
+pre {
+	font-family: "Courier", monospace;
+	font-size: 0.85em;
+	margin: 0 0 0.5em 0;
+	padding: 0;
+}
+
+table, tr, td {
+	margin: 0;
+	padding: 0;
+}
+
+td {
+	vertical-align: top;
+}
+
+div.topic {
+	padding: 5px 5px 5px 7px;
+	width: 100px;
+}
+
+div.topic-right {
+	padding: 15px 5px 5px 0px;
+}
+
+div.image {
+	border: 1px solid;
+	height: 120px;
+	margin-right: 15px;
+	overflow: hidden;
+	width: 120px;
+}
+
+div.image-large {
+	border: 1px solid;
+	height: 200px;
+	margin-right: 15px;
+	overflow: hidden;
+	width: 200px;
+}
+
+div.name {
+	background-image: url(images/components/name.gif);
+}
+
+div.examples {
+	background-image: url(images/components/example.gif);
+}
+
+div.description {
+	background-image: url(images/components/description.gif);
+}
+
+div.syntax {
+	background-image: url(images/components/syntax.gif);
+	font-family: monospace; 
+	white-space: pre; 
+	margin: 1__qem 0;
+}
+
+div.parameters {
+	background-image: url(images/components/parameters.gif);
+}
+
+div.returns {
+	background-image: url(images/components/returns.gif);
+}
+
+div.usage {
+	background-image: url(images/components/usage.gif);
+}
+
+div.related {
+	background-image: url(images/components/related.gif);
+}
+
+div.files {
+	background-image: url(images/components/files.gif);
+}
+
+div.name,
+div.examples,
+div.description,
+div.syntax,
+div.parameters,
+div.returns,
+div.usage,
+div.related,
+div.files {
+	background-position: 6px 0;
+	background-repeat: no-repeat;
+	padding: 5px 0 9px 100px;
+	font-family: serif;
+	font-size: 10pt;
+	line-height: 1.2em;
+}
+
+div#header {
+	border-bottom: 1px solid rgb(60,60,60);
+	margin: 0 8px 0 8px;
+}
+
+div#navigation {
+	margin: 0 8px 0 8px;
+}
+
+div#content-fixed {
+	margin: 0 5px 0 8px;
+	width: 600px;
+}
+
+div#content-stretch {
+	margin: 0 8px 0 8px;
+}
+
+div#about {
+	/*background-image: url(../about/img/crappy.gif);*/
+	background-position: 8px -10px;
+	background-repeat: no-repeat;
+	height: 400px;
+}

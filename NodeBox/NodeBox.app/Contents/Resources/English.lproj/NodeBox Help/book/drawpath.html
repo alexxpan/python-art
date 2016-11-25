@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>NodeBox Reference - 'drawpath'</title>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta name="AppleTitle" content="drawpath">
+<meta name="description" content="Draws a path to the screen">
+<link href="style.css" type="text/css" rel="stylesheet">
+<meta name="robots" content="nofollow">
+<base target="_top">
+</head>
+
+<body>
+
+<div id="content-fixed">
+<div class="name">drawpath</div>
+<div class="syntax">drawpath(path)</div>
+<div class="description">Draws a path to the screen. A path is a series of lines and curves defined between beginpath() and endpath(). Normally, endpath() draws the path to the screen, unless when calling endpath(draw=False). The path can then be assigned to a variable, and this variable used as a parameter for drawpath().</div>
+
+<div class="examples">
+<table><tr>
+        <td><div class="image"><img src="images/items/drawpath.gif" alt="drawpath example image"></div></td>
+        <td><pre>beginpath(10,10)
+lineto(40, 10)
+p = endpath(draw=False)
+drawpath(p)</pre></td>
+</tr></table>
+</div>
+
+<div class="returns"><p>None</p></div>
+
+<div class="related">
+    <a href="beginpath.html" target="frmbot">beginpath</a> 
+    <a href="endpath.html" target="frmbot">endpath</a> 
+</div>
+
+
+
+<br>
+<br>
+</div>
+</body>
+</html>
+

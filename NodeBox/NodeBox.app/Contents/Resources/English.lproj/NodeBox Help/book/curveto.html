@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>NodeBox Reference - 'curveto'</title>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta name="AppleTitle" content="curveto">
+<meta name="description" content="The curveto() command must be called between beginpath() and endpath()">
+<link href="style.css" type="text/css" rel="stylesheet">
+<meta name="robots" content="nofollow">
+<base target="_top">
+</head>
+
+<body>
+
+<div id="content-fixed">
+<div class="name">curveto</div>
+<div class="syntax">curveto(h1x, h1y, h2x, h2y, x, y)</div>
+<div class="description">The curveto() command must be called between beginpath() and endpath(). Draws a curve between the current point in the path and a new destination point. The last two parameters, x and y, set the location of the new destination point. The first and second, and the third and fourth parameters set the location of the two control points of the curve. These control points, or handles, define the edge and slant of the curve.</div>
+
+<div class="examples">
+<table><tr>
+        <td><div class="image"><img src="images/items/curveto.gif" alt="curveto example image"></div></td>
+        <td><pre>beginpath(0,0)
+curveto(100,100,50,0,100,100)
+endpath()</pre></td>
+</tr></table>
+</div>
+
+<div class="returns"><p>None</p></div>
+
+<div class="related">
+    <a href="moveto.html" target="frmbot">moveto</a> 
+    <a href="lineto.html" target="frmbot">lineto</a> 
+</div>
+
+
+
+<br>
+<br>
+</div>
+</body>
+</html>
+
